@@ -36,12 +36,20 @@ connectionsWithCost = [('VA', 'CA', {"weight": 3}), ('VA', 'SE', {"weight": 1}),
                        ('PH', 'LA', {"weight": 3}), ('PO', 'SLC', {"weight": 6}), ('SLC', 'LV', {"weight": 3}),
                        ('LV', 'LA', {"weight": 2}), ('SLC', 'SF', {"weight": 5}), ('SF', 'LA', {"weight": 3}),
                        ('SF', 'PO', {"weight": 5})]
-destinations = [['BO', 'MI', 12], ['CA', 'PH', 13], ['CA', 'SLC', 7], ['CH', 'NO', 7], ['CH', 'SFE', 9],
-                ['DA', 'NY', 11], ['DE', 'EP', 4], ['DE', 'PI', 11], ['DU', 'EP', 10], ['DU', 'HO', 8],
-                ['HE', 'LA', 8], ['KC', 'HO', 5], ['LA', 'CH', 16], ['LA', 'MI', 20], ['LA', 'NY', 21],
-                ['MO', 'AT', 9], ['MO', 'NO', 13], ['NY', 'AT', 6], ['PO', 'NA', 17], ['PO', 'PH', 11],
-                ['SF', 'AT', 17], ['SSM', 'NA', 8], ['SSM', 'OC', 9], ['SE', 'LA', 9], ['SE', 'NY', 22],
-                ['TO', 'MI', 10], ['VA', 'MO', 20], ['VA', 'SFE', 13], ['WI', 'HO', 12], ['WI', 'LR', 7]]
+destinations = [['CH', 'AT', 5], ['LA', 'AT', 15], ['MO', 'AT', 9], ['NY', 'AT', 6], ['SF', 'AT', 17],
+                ['WA', 'AT', 4], ['CH', 'BO', 7], ['KC', 'BO', 11], ['PH', 'BO', 19], ['LA', 'CA', 12],
+                ['TO', 'CHA', 6], ['LA', 'CH', 16], ['MO', 'CH', 7], ['SLC', 'CH', 11], ['DU', 'DA', 7],
+                ['MO', 'DA', 13], ['VA', 'DE', 11], ['VA', 'DU', 13], ['DE', 'EP', 4], ['DU', 'EP', 10],
+                ['DU', 'HO', 8], ['KC', 'HO', 5], ['PO', 'HO', 8], ['WI', 'HO', 12], ['SLC', 'KC', 7],
+                ['SE', 'LV', 10], ['WI', 'LR', 11], ['HE', 'LA', 8], ['SE', 'LA', 9], ['BO', 'MI', 12],
+                ['LV', 'MI', 21], ['LA', 'MI', 19], ['NY', 'MI', 10], ['SL', 'MI', 8], ['SSM', 'MI', 12],
+                ['TO', 'MI', 10], ['VA', 'MO', 20], ['CA', 'NA', 14], ['PO', 'NA', 17], ['SSM', 'NA', 8],
+                ['CH', 'NO', 7], ['MO', 'NO', 13], ['OM', 'NO', 8], ['PI', 'NO', 8], ['SE', 'NO', 20],
+                ['CH', 'NY', 5], ['DA', 'NY', 11], ['LV', 'NY', 19], ['LA', 'NY', 20], ['NA', 'NY', 6],
+                ['LA', 'OC', 9], ['SSM', 'OC', 8], ['SE', 'OC', 14], ['WI', 'OM', 6], ['CA', 'PH', 13],
+                ['PO', 'PH', 11], ['DE', 'PI', 11], ['PO', 'PI', 19], ['VA', 'PO', 2], ['MO', 'RA', 7],
+                ['DE', 'SL', 6], ['CA', 'SLC', 7], ['CH', 'SFE', 9], ['VA', 'SFE', 13], ['WI', 'SFE', 10],
+                ['SF', 'SSM', 17], ['BO', 'WA', 4], ['HO', 'WA', 10], ['SF', 'WA', 21]]
 
 
 def getPoints(destination):
